@@ -1,0 +1,17 @@
+[project]
+name = "renamer"
+version = "0.1.0"
+description = "CLI to rename multiple files"
+authors = [{ name = "hemauricio", email = "github@hemauricio.com" }]
+license = { text = "GPL" }
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = ["click (>=8.2.1,<9.0.0)"]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+renamer = "renamer:main" # Entry point to the CLI
