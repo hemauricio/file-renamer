@@ -8,6 +8,8 @@ This file renamer is a command-line tool that automates the process of renaming 
 
 1. Clone repo
 2. Run `poetry install`
+3. Run `poetry shell`
+4. Run `pip install .`
 
 
 ### Use
